@@ -1,10 +1,16 @@
 .carousel-inner{
-    background-color: black;
+    background-color: rgb(138, 138, 138);
     height: 25rem;
 }
-.navbar, section{
-    border: 0.05rem solid rgba(250, 0, 0, 0.685);
-    border-radius: 0.25rem;
+
+footer,nav{
+   background-color:#151515;
+   
 }
+div.carousel-inner{
+
+    border-radius: 1rem;
+}
+
 
 
