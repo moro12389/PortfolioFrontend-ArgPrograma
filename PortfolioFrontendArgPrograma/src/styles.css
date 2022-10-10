@@ -1,0 +1,17 @@
+.carousel-inner{
+    background-color: rgb(138, 138, 138);
+    height: 25rem;
+}
+
+footer,nav{
+   background-color:#151515;
+   
+}
+div.carousel-inner{
+
+    border-radius: 1rem;
+}
+
+
+
+
