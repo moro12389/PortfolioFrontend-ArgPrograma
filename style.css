@@ -11,6 +11,12 @@ div.carousel-inner{
 
     border-radius: 1rem;
 }
+.banner{
+    width: 100%;
+}
 
+hr{
+    border:1px solid #ec2828;
 
+}
 
