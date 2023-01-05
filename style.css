@@ -11,12 +11,17 @@ div.carousel-inner{
 
     border-radius: 1rem;
 }
-.banner{
-    width: 100%;
-}
 
 hr{
     border:1px solid #ec2828;
 
 }
 
+header{
+    text-align: center;
+    padding: 1em 0em;
+}
+img{
+    width: 60%;
+    box-shadow: 2px 2px 7px 1px #000000;
+}
