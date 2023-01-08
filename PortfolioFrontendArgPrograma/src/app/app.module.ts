@@ -8,6 +8,9 @@ import { ExperienciayProyectosComponent } from './componentes/experienciay-proye
 import { UsuarioComponent } from './componentes/usuario/usuario.component';
 import { InicioSesionComponent } from './componentes/inicio-sesion/inicio-sesion.component';
 import { PortfolioComponent } from './componentes/portfolio/portfolio.component';
+import { RouterModule } from '@angular/router';
+import { AppRoutingModuleTsModule } from './app-routing.module.ts/app-routing.module.ts.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,8 +23,9 @@ import { PortfolioComponent } from './componentes/portfolio/portfolio.component'
     PortfolioComponent
   ],
   imports: [
-    BrowserModule
-  ],
+    BrowserModule,
+    AppRoutingModuleTsModule,
+    ReactiveFormsModule],
   providers: [],
   bootstrap: [AppComponent]
 })
